@@ -4,6 +4,8 @@ body, html {
     overflow: hidden;
     cursor: none; /* Hide default cursor */
     background-color: black;
+    height: 100%;
+    width: 100%;
 }
 
 #particleCanvas {
@@ -11,4 +13,5 @@ body, html {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
